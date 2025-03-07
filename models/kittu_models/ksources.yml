@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: xxxx
+    database: KRISHDB27  
+    schema: KRISHSCH  
+    tables:
+      - name: EMP
