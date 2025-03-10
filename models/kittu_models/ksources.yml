@@ -6,3 +6,4 @@ sources:
     schema: KRISHSCH  
     tables:
       - name: EMP
+      - name: employees
