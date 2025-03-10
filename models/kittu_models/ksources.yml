@@ -11,6 +11,6 @@ sources:
 models:
   - name: employee
     columns:
-      - name: first_name
+      - name: FIRST_NAME
         tests:
-          - captest
+          - captest27
