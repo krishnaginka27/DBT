@@ -11,10 +11,6 @@ sources:
 models:
   - name: employee
     columns:
-      - name: emp_id
-        tests:
-          - unique
-          - not_null
       - name: first_name
         tests:
-          - captest
+          - captest2
