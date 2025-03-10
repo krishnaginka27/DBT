@@ -1,6 +1,7 @@
-{% test captest2(model, column_name) %}
+{% test captest(model, column_name) %}
 
 select * From {{ ref('model') }}
-where {{column_name}} !~ '^[A-Z][a-z]*$'
+where {{column_name}} is not null
 
 {% endtest %}
+
