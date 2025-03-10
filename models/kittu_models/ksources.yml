@@ -13,4 +13,6 @@ models:
     columns:
       - name: FIRST_NAME
         tests:
+          - unique
           - captest27
+          
