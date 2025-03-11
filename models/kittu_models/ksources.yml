@@ -15,4 +15,5 @@ models:
         tests:
           - unique
           - captest27
+          - captest2w7
           
