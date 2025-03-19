@@ -12,3 +12,4 @@ where {{column_name}} is not null
 
 {% endtest %}
 
+
