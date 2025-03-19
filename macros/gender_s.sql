@@ -50,3 +50,13 @@
    {% do return([1,2,3]) %}
   
 {% endmacro %}
+
+{#---------------------------------------------------------------------#}
+
+-- Returns a list of the payment_methods in the stg_payments model_
+{% set payment_methods = dbt_utils.get_column_values(table=ref('inc2'), column='ID') %}
+
+{% for payment_method in payment_methods %}
+    
+{% endfor %}
+

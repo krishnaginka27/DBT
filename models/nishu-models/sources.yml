@@ -9,3 +9,4 @@ sources:
       - name: employees
       - name: SALES
       - name: SALES2
+      - name: CUST
