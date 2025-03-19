@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: sc1
+    database: KRISHDB27  
+    schema: KRISHSCH  
+    tables:
+      - name: EMP
+      - name: employees
+      - name: SALES
+      - name: SALES2
