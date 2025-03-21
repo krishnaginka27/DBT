@@ -10,3 +10,4 @@ sources:
       - name: SALES
       - name: SALES2
       - name: CUST
+      - name: ext_employee_data
