@@ -1,0 +1,13 @@
+version: 2
+
+seeds:
+  - name: country_codes
+    config:
+      quote_columns: true
+      column_types:
+        Country: varchar(255)
+        Capital: varchar(255)
+        Population: varchar(255)
+        Continent: varchar(255)
+        GDP_Per_Capita: varchar(255)
+      delimiter: ','
